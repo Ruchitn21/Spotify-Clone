@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    color: aliceblue;
+    height: 65px;
+
+}
+
+nav .right_list {
+    padding: 0 30em;
+    color: white;
+}
+
+.login_button {
+    margin-right: 30px;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 45px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.container {
+     min-height:55vh;
+     background-color: rgb(53, 50, 50);
+     color: white;
+     display: flex;
+     width: 80%;
+     margin: 23px auto;
+     border-radius: 12px;
+     padding: 34px;
+     background-image: url("music_background.png");
+
+}
+
+
+.container .songList img {
+    width:70px;
+    border-radius: 30px;
+}
+
+.timestamp {
+    margin-right: 12px;
+    color: yellowgreen;
+    cursor: pointer;
+    
+}
+
+i {
+    cursor: pointer;
+}
+
+.songDuration {
+    display: flex;
+    align-items: center;
+    margin-left: 70em;
+}
+
+.songItem {
+    padding: 20px auto;
+    height: 70px;
+    display: flex;
+    /* background-color:rgb(24, 22, 22); */
+    width: 30em;
+    color: white;
+    margin: 10px 2px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 70vw;
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 8vw;
+}
